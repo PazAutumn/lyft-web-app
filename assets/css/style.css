@@ -49,6 +49,23 @@ body {
 	display: none;
 }
 
+
+.blanco {
+	text-align: center;
+	width: 100px;
+	height: auto;
+}
+
+.bigote {
+	width: 100%;
+	height: auto;
+}
+
+.great {
+	text-align: center;
+	color: white;
+}
+
 .button {
 	background-color: transparent;
 	color: #e10a89;
