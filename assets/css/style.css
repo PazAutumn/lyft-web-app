@@ -26,16 +26,16 @@ body {
 }
 
 .first {
-	display: none;
 	width: 100%;
 	height: 100vh;
 	background-image: url(https://i.pinimg.com/736x/73/ed/9a/73ed9a29ba19756355ec570bcfbe9de1--night-photography-hongkong-photography.jpg);
 	background-size: cover;
 }
 
-.second{
+.second,.third,.fourth,.final{
 	width: 100%;
 	height: 100vh;
+	color: white;
 }
 
 .first img {
@@ -45,7 +45,7 @@ body {
 	justify-content: center;
 }
 
-.second {
+.first,.second,.third,.fourth,.final {
 	display: none;
 }
 
@@ -69,4 +69,11 @@ body {
 	color: white;
 }
 
+#enter {
+	text-align: center;
+}
 
+#resend {
+	background-color: #530060;
+
+}
