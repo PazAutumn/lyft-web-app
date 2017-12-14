@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Lyft</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+		<!--Vista splash-->
+		<div class="display">
+			<div class="col s12 logo" id="logo">
+				<img src="assets/images/logo-white.png" alt="">
+					<div class="preloader-wrapper small active">
+						<div class="spinner-layer spinner-green-only">
+							<div class="circle-clipper left">
+								<div class="circle"></div>
+							</div><div class="gap-patch">
+								<div class="circle"></div>
+							</div><div class="circle-clipper right">
+								<div class="circle"></div>
+							</div>
+						</div>
+					</div>
+			</div>
+		</div>
+		<!--sección BOTONES-->
+		<section class="first">
+			<div class="container">
+				<div class="row">
+					<div class="col s12">
+						<img src="assets/images/lyft-bigote.png" alt="">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col s12">
+						<img src="assets/images/logo-pink.png" alt="">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col s6">
+						<a href="" class="btn-large right button">LOG IN</a>
+					</div>
+					<div class="col s6">
+						<a href="" class="btn-large button" id="sign">SIGN UP</a>
+					</div>
+				</div>
+			</div>
+		</section><!--cierre seccion botones-->
+		<section class="second">
+			<div class="container">
+				<div class="row center">
+					<div class="col s12">
+						<h4>Sign Up</h4>
+						<p>Join now for free ride credit</p>
+						<hr>
+					</div>
+				</div>
+				<div class="row">
+					<div class="input-field col s6 input">
+				    <select>
+				      <option id="choose" value="" disabled selected>Choose your country</option>
+				      <option value="1">Chile</option>
+				      <option value="2">Colombia</option>
+				      <option value="3">Venezuela</option>
+				    </select>
+				    <label>Country</label>
+				  </div>
+					<div class="input-field col s6">
+				    <input placeholder="+56" type="text" class="validate" id="phone">
+          	<label>Phone</label>
+				  </div>
+				</div>
+				<div class="row">
+					<div class="col s6">
+						<a class="back btn right" id="phone-back">Back</a>
+					</div>
+					<div class="col s6">
+						<a class="next btn left" id="phone-next" disabled="disabled">Next</a>
+					</div>
+				</div>
+		</section>
+
+	
+	<!-- Scripts -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

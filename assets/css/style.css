@@ -1,0 +1,72 @@
+body {
+	background: linear-gradient(#76278F, #e10a89, #530060);
+}
+
+.center {
+	display: flex;
+	justify-content: center;
+	color: white;
+}
+
+.logo {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-size: 60px;
+	font-weight: lighter;
+	color: #D37B2C;
+}
+
+.logo img {
+	width: 200px;
+	height: auto;
+}
+
+.first {
+	display: none;
+	width: 100%;
+	height: 100vh;
+	background-image: url(https://i.pinimg.com/736x/73/ed/9a/73ed9a29ba19756355ec570bcfbe9de1--night-photography-hongkong-photography.jpg);
+	background-size: cover;
+}
+
+.second{
+	width: 100%;
+	height: 100vh;
+}
+
+.first img {
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+}
+
+.second {
+	display: none;
+}
+
+.button {
+	background-color: transparent;
+	color: #e10a89;
+	border: 2px solid #e10a89;
+	font-weight: bolder;
+}
+
+.button:hover {
+	background-color: #e10a89;
+	color: white;
+}
+
+.next,.back {
+	background-color: #e10a89;
+}
+
+#phone {
+	color: white;
+}
+
+
